@@ -1,0 +1,51 @@
+<html>
+   <head>
+       <script>
+           function raden(){
+               alert("hoi");
+              // rekenen (8, 7); // argument // 
+              // rekenen (14, 3);
+              // ffloopen(); 
+              verzameling ();
+              var deTekst= geefMijIets(); 
+              console.log(deTekst); 
+           }
+
+           function geefMijIets(){
+               return "jojo";
+
+           }
+           function verzameling(){
+               var mijnArray= [5 , 14, 22, 7, 5]
+               console.log(mijnArray[2]);
+
+               for(var r=0; r < mijnArray.lenght; r++){
+                   console.log("inArray:"+mijnArray[r]);
+               }
+           }
+           // DRY (dont repeat your self)
+           function ffloopen(){
+               for (var x= 0;x < 100;x++){
+                   console.log(x);
+                      
+
+               }
+
+
+           }
+           function rekenen (eerstegetal, tweedegetal) { //parameter //
+                var getal1= 17;
+              var getal2= 4; 
+               var totaal= getal1 + getal2+ eerstegetal;
+               console.log("Ik ga rekenen "+totaal+" is het toaal van de som")
+
+           }
+       </script>
+       <style>
+      
+       </style>
+   </head>
+   <body>
+       <input value=raden type=button onclick=raden() >
+   </body>
+</html>
